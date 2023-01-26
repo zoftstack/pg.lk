@@ -3679,11 +3679,13 @@ span.esli_vd {
 .crs_cates.cl_5 {
     background: rgba(130, 79, 60, 0.11);
     color: #824f3c;
+    height: auto;
 }
 
 .crs_cates.cl_6 {
     background: rgba(255, 87, 34, 0.11);
     color: #ff5722;
+    height: auto;
 }
 
 .crs_cates.cl_7 {
