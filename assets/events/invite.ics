@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Colombo
+X-LIC-LOCATION:Asia/Colombo
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:+0530
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Colombo:20230407T193000
+DTEND;TZID=Asia/Colombo:20230407T213000
+DTSTAMP:20230328T224037Z
+ORGANIZER;CN=admin@zoftstack.com:mailto:admin@zoftstack.com
+UID:609j0rphhhtt1behrvcavv4pge@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=OPT-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=kalhara.me@gmail.com;X-NUM-GUESTS=0:mailto:kalhara.me@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=admin@zoftstack.com;X-NUM-GUESTS=0:mailto:admin@zoftstack.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/dxi-dhrw-wxf
+X-MICROSOFT-CDO-OWNERAPPTID:-1287424177
+CLASS:PUBLIC
+CREATED:20230328T223435Z
+DESCRIPTION:JAVA Programming For Absolute Beginners By Programmer.LK\n\n-::
+ ~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~::~:~::-\nJoin with Google Meet: https://meet.google.com/dxi-dhrw-wxf\nOr 
+ dial: (US) +1 321-312-0941 PIN: 366121157#\nMore phone numbers: https://tel
+ .meet/dxi-dhrw-wxf?pin=6772000629072&hs=7\n\nLearn more about Meet at: http
+ s://support.google.com/a/users/answer/9282720\n\nPlease do not edit this se
+ ction.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20230328T224035Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:JAVA Programming For Absolute Beginners By Programmer.LK
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

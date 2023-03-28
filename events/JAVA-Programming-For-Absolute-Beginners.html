@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Participation Of Orientation</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Stack SAGA Events And Meetups'.">
+    <meta name="author" content="Mafei">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+</head>
+<body style="margin: 0px; padding-top: 20px !important;">
+<br>
+<br>
+
+<div class="theme-bg-dark py-5 text-center position-relative">
+
+    <div class="theme-bg-shapes-right"></div>
+    <div class="theme-bg-shapes-left"></div>
+    <div class="container">
+        <a class="btn btn-default" target="_blank"
+           href="./../assets/events/invite.ics">
+            Click here to add the event to your calendar.
+            <br>
+            <img border="0" style="max-width: 400px" src="./../assets/img/google-cal.jpg">
+        </a>
+        <br>
+        <br>
+        <h3 id="demo"></h3>
+    </div>
+</div>
+<div data-aidaform-widget="form-2019-12" data-url="https://mafei.aidaform.com/JAVA-Programming-For-Absolute-Beginners"
+     data-width="100%" data-height="90%" data-do-resize></div>
+
+
+<script
+        src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+        crossorigin="anonymous">
+
+</script>
+<script>
+    (function () {
+        var r, d = document, gt = d.getElementById, cr = d.createElement, tg = d.getElementsByTagName,
+            id = "aidaform-embed";
+        if (!gt.call(d, id)) {
+            r = cr.call(d, "script");
+            r.id = id;
+            r.src = "https://embed.aidaform.com/embed.js";
+            (d.head || tg.call(d, "head")[0]).appendChild(r);
+
+        }
+    })
+    ()
+</script>
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Apr 7, 2023 19:30:00").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+
+        // If the count down is over, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+
+    }, 1000);
+
+
+</script>
+</body>
+</html>
